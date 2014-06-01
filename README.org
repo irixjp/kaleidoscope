@@ -1,15 +1,21 @@
 * Kaleidoscope 
 
-** Usage
+** Descriptions
+   + Now developing ...
+   + Kaleidoscope is a framework for deployment and testing with S expressions.
 
 ** Dependencies
+   + bordeaux-threads
+   + trivial-shell
+   + local-time
+
+** Usage
 
 ** Installation
 
 ** Author
-
-+ Tomoaki Nakajima (powered.by.solaris@gmail.com)
+   + @irix_jp(twitter)
 
 * Copyright
 
-Copyright (c) 2014 Tomoaki Nakajima (powered.by.solaris@gmail.com)
+Copyright (c) 2014 @irix_jp(twitter)
