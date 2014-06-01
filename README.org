@@ -1,0 +1,15 @@
+* Kaleidoscope 
+
+** Usage
+
+** Dependencies
+
+** Installation
+
+** Author
+
++ Tomoaki Nakajima (powered.by.solaris@gmail.com)
+
+* Copyright
+
+Copyright (c) 2014 Tomoaki Nakajima (powered.by.solaris@gmail.com)
