@@ -1,6 +1,6 @@
 #|
   This file is a part of kaleidoscope project.
-  Copyright (c) 2014 Tomoaki Nakajima (powered.by.solaris@gmail.com)
+  Copyright (c) 2014 @irix_jp
 |#
 
 (in-package :cl-user)
