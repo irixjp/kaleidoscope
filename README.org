@@ -6,12 +6,12 @@
 
 ** Dependencies
    + sbcl on linux
-   + bordeaux-threads
-   + trivial-shell
-   + local-time
+     - bordeaux-threads
+     - trivial-shell
+     - local-time
 
 ** Usage
-   The below is just a visions yet.
+   The below is just a vision yet.
 
    + ex) Run Kaleidoscope from shell.
 
@@ -23,6 +23,7 @@
    + ex) Define & run task with S expressions.
 
 : (make-role 'web '("192.168.100.10" "192.168.100.20"))
+
 : (make-task 'http
 :            :run '("yum install httpd"
 :                   "chkconfig httpd on"
@@ -30,6 +31,7 @@
 :            :test '("rpm -qa |grep httpd"
 :                    "chkconfig --list |grep httpd | grep 3:on"
 :                    "netstat -nap |grep LISTEN | grep httpd |grep 80")
+
 : (task      'http 'web)
 : (task-run  'http 'web)
 : (task-test 'http 'web) 
